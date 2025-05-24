@@ -1,0 +1,2 @@
+que le falta al archivo prompt.txt para crear el proyecto desde cero?
+crear un proyecto desde cero según el archivo prompt.txt

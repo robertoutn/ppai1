@@ -1,14 +1,13 @@
     Extraer el texto y revisar detalladamente la informacion contenida en los archivos tipo docx que estan en la carpeta documentos.
-    la descripción del dominio de la aplicación detallado: Entidades, atributos y relaciones se encuentra en el archivo "descripciónDelDominio.docx"
+    la descripción del dominio de la aplicación se encuentra en el archivo "descripciónDelDominio.docx"
     la especificación de requerimientos de software se encuentra en el archivo "Especificacion de Requerimientos de Software.docx"
-    el modelo de dominio se encuentra en el archivo "ModeloDeDominio.docx"
+    el modelo de dominio se encuentra en la carpeta ModeloDominioRedSismica
     la descripción de los roles de usuario: Nombres, permisos y funciones de cada rol estan en los archivos de la carpeta "documentos"
 
     lenguaje Python 3.11.9 instalado,
 
     sistema operativo: Windows,
     IDE: Visual Studio Code,
-    gestor de versiones: Git,
     gestor de base de datos: SQLite,
     gestor de entornos virtuales: venv,
 
@@ -37,21 +36,18 @@
     crear un superusuario para el proyecto,
     proyecto para desarrollo local únicamente,
     
-    el tema visual para el fondo de la interfaz web debe estar relacionado con el tema de la aplicación,
+    el tema visual para el fondo de la interfaz web debe usar las imágenes que contienen los documentos de la carpeta documentos,
     interfaz de usuario: web,
 
 update: python.exe -m pip install --upgrade pip
 
-El proyecto debe contener:
-    - un entorno virtual (venv) en la raíz del proyecto,
-    - un archivo requirements.txt con las dependencias necesarias para el proyecto,
-    - un archivo .gitignore para ignorar archivos innecesarios,
-    - un archivo README.md con una breve descripción del proyecto,
-    - un archivo manage.py para ejecutar comandos de Django,
-    - un archivo de configuración para la base de datos,
-    - un archivo de configuración para el entorno de desarrollo,
-
-implementar el caso de uso "Dar cierre a orden de inspección de ES" (Nro. 37) 
+crear el archivo requirements.txt con las dependencias necesarias para el proyecto,
+    crear el archivo .gitignore para ignorar archivos innecesarios,
+    crear el archivo README.md con una breve descripción del proyecto,
+    
+implementar el caso de uso "Dar cierre a orden de inspección de ES" (Nro. 37)  que se encuentra en el archivo Especificacion de requerimientos de software en "Descripción Detallada de Requerimientos", "Requerimientos Funcionales"
 cumplir con los requerimientos funcionales del caso de uso 37
+crear una clase interfaz para la vista de cierre de orden de inspección de ES
+crear una clase controlador para la vista de cierre de orden de inspección de ES
 
 pruebas automáticas, documentación técnica o despliegue

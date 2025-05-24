@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Detalle de Orden de Inspección: {{ orden.numero }}</h2>
+<ul>
+    <li><b>Fecha de generación:</b> {{ orden.fecha_generacion }}</li>
+    <li><b>Fecha de inicio:</b> {{ orden.fecha_inicio }}</li>
+    <li><b>Fecha de cierre:</b> {{ orden.fecha_cierre }}</li>
+    <li><b>Observaciones:</b> {{ orden.observaciones }}</li>
+    <li><b>Encargado:</b> {{ orden.encargado }}</li>
+    <li><b>Estación:</b> {{ orden.estacion }}</li>
+</ul>
+<a href="/inspeccion/orden/{{ orden.pk }}/cerrar/" class="btn btn-secondary">Cerrar orden</a>
+{% endblock %}
